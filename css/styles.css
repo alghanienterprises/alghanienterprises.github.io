@@ -1425,6 +1425,79 @@ table a:hover{
 	background: url(../img/social-networks-2.png) no-repeat top left; 
 }
 
+input[type="text"]
+{
+    color: black;
+    font-size:20px;
+    font-weight: bold;
+}
+input[type="number"]
+{
+    color: black;
+    font-size:20px;
+    font-weight: bold;
+}
+input[type="email"]
+{
+    color: black;
+    font-size:20px;
+    font-weight: bold;
+}
+.boldit{
+  color: black !important;
+      font-size:20px;
+    font-weight: bold;
+}
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #4F4B4C !important;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #4F4B4C !important;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #4F4B4C !important;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #4F4B4C !important;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+   color:    #4F4B4C !important;
+}
+
+::placeholder { /* Most modern browsers support this now. */
+   color:    #4F4B4C !important;
+}
+
+textarea {
+    color: black !important;
+      font-size:20px;
+    font-weight: bold;
+}
+.btn {
+  background: #a31f1f;
+  background-image: -webkit-linear-gradient(top, #a31f1f, ##a31f1f);
+  background-image: -moz-linear-gradient(top, #a31f1f, ##a31f1f);
+  background-image: -ms-linear-gradient(top, #a31f1f, ##a31f1f);
+  background-image: -o-linear-gradient(top, #a31f1f, ##a31f1f);
+  background-image: linear-gradient(to bottom, #a31f1f, ##a31f1f);
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  -webkit-box-shadow: 5px 4px 8px #666666;
+  -moz-box-shadow: 5px 4px 8px #666666;
+  box-shadow: 5px 4px 8px #666666;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 29px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #ab4242;
+  text-decoration: none;
+}
 /* Normal */
 .social-network.aim{ background-position: 0 0}
 .social-network.amazon{ background-position: -24px 0}

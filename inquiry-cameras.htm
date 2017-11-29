@@ -45,7 +45,7 @@
                 <!-- Logo -->
                 <div class="span3">
                     <div class="logo">
-                        <a href="index.htm"><img src="img/logo.png" alt=""></a>
+                        <a href="/"><img src="img/logo.png" alt=""></a>
                     </div>
                 </div>
                 <div class="span9">
@@ -54,7 +54,7 @@
                         <a href="#nav" title="Show navigation">Show navigation</a>
                         <a href="#" title="Hide navigation">Hide navigation</a>
                         <ul class="clearfix">
-                            <li><a href="index.htm" title="">Home</a></li>
+                            <li><a href="/" title="">Home</a></li>
                             <li><a href="about-us.htm" title="">About Us</a></li>
                             <li><a href="offers.htm" title="">Offers</a></li>
                             <li class="active">
@@ -107,76 +107,95 @@
                 </div>
             </div>
             <div class="row">
-                <!-- Blog Form -->
-                <form class="form-comment" id="contactForm" name="contactForm" method="post" action="http://alghani-email.gear.host/api/email">
-                    <div class="row">
-                        <div class="span4">
-                            <input name="blank" id="blank" type="hidden">
-                            <input name="contactType" id="contactType" value="inquiry-camera" type="hidden">
-                            <input name="name" id="name" maxlength="20" required type="text" placeholder="Name">
-                        </div>
-                        <div class="span4">
-                            <input name="email" id="email" maxlength="30" required type="email" placeholder="your-email-id@company.com">
-                            <br>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="span4">
-                            <input name="phone" id="phone" type="text" maxlength="20" placeholder="Phone Number">
-                        </div>
-                        <div class="span4">
-                            <input name="instName" id="instName" type="text" maxlength="10" placeholder="Company Name">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="span8" style="margin-top:10px;">
-                            <select id="cameraType" name="cameraType" style="width:100%;background-color:#fb8865;height:37px;line-height:37px;">
-                                <option selected disabled>Select CCTV Type</option>
-                                <option value="HIK VISION">HIK Vision</option>
-                                <option value="Scout">SCOUT</option>
-                                <option value="Other">OTHER</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="span4" style="margin-top:10px;">
-                            <select id="maintenance" name="maintenance" style="width:100%;background-color:#fb8865;height:37px;line-height:37px;">
-                                <option selected disabled>Maintenance ?</option>
-                                <option value="Yes">Yes</option>
-                                <option value="No">No</option>
-                            </select>
-                        </div>
-                        <div class="span4">
-                            <input name="cameraQuantity" id="cameraQuantity" type="number" maxlength="10" placeholder="quantity">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="span8">
-                            <textarea name="message" id="message" maxlength="500"></textarea>
-                        </div>
-                    </div>
-                    <div class="row space20"></div>
-                    <div class="g-recaptcha" data-sitekey="6LeV8DcUAAAAANUqxd7WhrHpUoWd0HNRyTbbUIef"></div>
-                    <div class="row space20"></div>
-                    <div class="row">
-                        <div class="span2">
-                            <button class="btn left"><i class="icon-ok"></i> Send Message</button>
-                        </div>
-                        <div class="span6">
-                            <div class="alert alert-error error" id="errDiv" style="display:none;">
-                                <button type="button" class="close" data-dismiss="alert">&times;</button>
-                                <strong>Error!</strong> Message sending failed, try again.
+                <div class="span8">
+                    <!-- Blog Form -->
+                    <form class="form-comment" id="contactForm" name="contactForm" method="post" action="http://alghani-email.gear.host/api/email">
+                        <div class="row">
+                            <div class="span4">
+                                <input name="blank" id="blank" type="hidden">
+                                <input name="contactType" id="contactType" value="inquiry-camera" type="hidden">
+                                <input name="name" id="name" maxlength="20" required type="text" placeholder="Name">
                             </div>
-                            <div class="alert alert-success thank" id="sccDiv" style="display:none;">
-                                <button type="button" class="close" data-dismiss="alert">&times;</button>
-                                <strong>Thank You!</strong> Your message successfully sent.
+                            <div class="span4">
+                                <input name="email" id="email" maxlength="30" required type="text" placeholder="your-email-id@company.com">
+                                <br>
                             </div>
                         </div>
-                    </div>
-                    <div class="row space20"></div>
-                </form>
-                <!-- Blog Form End -->
-
+                        <div class="row">
+                            <div class="span4">
+                                <input name="phone" id="phone" type="text" maxlength="20" placeholder="Phone Number">
+                            </div>
+                            <div class="span4">
+                                <input name="instName" id="instName" type="text" maxlength="10" placeholder="Company Name">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="span8" style="margin-top:10px;">
+                                <select id="cameraType" class="boldit" name="cameraType" style="width:100%;background-color:#fb8865;height:37px;line-height:37px;">
+                                    <option selected disabled>Select CCTV Type</option>
+                                    <option value="HIK VISION">HIK Vision</option>
+                                    <option value="Scout">SCOUT</option>
+                                    <option value="Other">OTHER</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="span4" style="margin-top:10px;">
+                                <select id="maintenance" class="boldit" name="maintenance" style="width:100%;background-color:#fb8865;height:37px;line-height:37px;">
+                                    <option selected disabled>Maintenance ?</option>
+                                    <option value="Yes">Yes</option>
+                                    <option value="No">No</option>
+                                </select>
+                            </div>
+                            <div class="span4">
+                                <input name="cameraQuantity" id="cameraQuantity" type="number" maxlength="10" placeholder="quantity">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="span8">
+                                <textarea name="message" id="message" placeholder="Your Message" maxlength="500"></textarea>
+                            </div>
+                        </div>
+                        <div class="row space20"></div>
+                        <div class="g-recaptcha" data-sitekey="6LeV8DcUAAAAANUqxd7WhrHpUoWd0HNRyTbbUIef"></div>
+                        <div class="row space20"></div>
+                        <div class="row">
+                            <div class="span2">
+                                <button class="btn left"><i class="icon-ok"></i> Send Message</button>
+                            </div>
+                            <div class="span6">
+                                <div class="alert alert-error error" id="errDiv" style="display:none;">
+                                    <button type="button" class="close" data-dismiss="alert">&times;</button>
+                                    <strong>Error!</strong> Message sending failed, try again.
+                                </div>
+                                <div class="alert alert-success thank" id="sccDiv" style="display:none;">
+                                    <button type="button" class="close" data-dismiss="alert">&times;</button>
+                                    <strong>Thank You!</strong> Your message successfully sent.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row space20"></div>
+                    </form>
+                    <!-- Blog Form End -->
+                </div>
+                <div class="span4">
+                    <div class="slider2 flexslider">
+                        <ul class="slides">
+                            <li>
+                                <img src="images/cameras/1.png" alt="hikvision-alghani-enterprises">
+                            </li>
+                            <li>
+                                <img src="images/cameras/2.jpg" alt="hikvision-alghani-enterprises">
+                            </li>
+                            <li>
+                                <img src="images/cameras/3.jpg" alt="scout-alghani-enterprises">
+                            </li>
+                            <li>
+                                <img src="images/cameras/4.jpg" alt="scout-alghani-enterprises">
+                            </li>
+                        </ul>
+                    </div> 
+                </div>
             </div>
         </div>
     </div>

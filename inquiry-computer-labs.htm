@@ -45,7 +45,7 @@
                 <!-- Logo -->
                 <div class="span3">
                     <div class="logo">
-                        <a href="index.htm"><img src="img/logo.png" alt=""></a>
+                        <a href="/"><img src="img/logo.png" alt=""></a>
                     </div>
                 </div>
                 <div class="span9">
@@ -54,7 +54,7 @@
                         <a href="#nav" title="Show navigation">Show navigation</a>
                         <a href="#" title="Hide navigation">Hide navigation</a>
                         <ul class="clearfix">
-                            <li><a href="index.htm" title="">Home</a></li>
+                            <li><a href="/" title="">Home</a></li>
                             <li><a href="about-us.htm" title="">About Us</a></li>
                             <li><a href="offers.htm" title="">Offers</a></li>
                             <li class="active">
@@ -107,43 +107,44 @@
                 </div>
             </div>
             <div class="row">
-                <!-- Blog Form -->
-                <form class="form-comment" id="contactForm" name="contactForm" method="post" action="http://alghani-email.gear.host/api/email">
-                    <div class="row">
-                        <div class="span4">
-                            <input name="blank" id="blank" type="hidden">
-                            <input name="contactType" id="contactType" value="inquiry-computer-lab" type="hidden">
-                            <input name="name" id="name" maxlength="20" required type="text" placeholder="Name">
+                <div class="span8">
+                    <!-- Blog Form -->
+                    <form class="form-comment" id="contactForm" name="contactForm" method="post" action="http://alghani-email.gear.host/api/email">
+                        <div class="row">
+                            <div class="span4">
+                                <input name="blank" id="blank" type="hidden">
+                                <input name="contactType" id="contactType" value="inquiry-computer-lab" type="hidden">
+                                <input name="name" id="name" maxlength="20" required type="text" placeholder="Name">
+                            </div>
+                            <div class="span4">
+                                <input name="email" id="email" maxlength="30" required type="text" placeholder="your-email-id@company.com">
+                                <br>
+                            </div>
                         </div>
-                        <div class="span4">
-                            <input name="email" id="email" maxlength="30" required type="email" placeholder="your-email-id@company.com">
-                            <br>
+                        <div class="row">
+                            <div class="span4">
+                                <input name="phone" id="phone" type="text" maxlength="20" placeholder="Phone Number">
+                            </div>
+                            <div class="span4">
+                                <input name="instName" id="instName" type="text" maxlength="10" placeholder="Company Name">
+                            </div>
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="span4">
-                            <input name="phone" id="phone" type="text" maxlength="20" placeholder="Phone Number">
-                        </div>
-                        <div class="span4">
-                            <input name="instName" id="instName" type="text" maxlength="10" placeholder="Company Name">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="span8" style="margin-top:10px;">
-                            <select id="system" name="system" style="width:100%;background-color:#fb8865;height:37px;line-height:37px;">
-                                <option selected disabled>Select System</option>
-                                <option value="core2duo">Core 2 Duo</option>
-                                <option value="dualcore">Dual Core</option>
-                                <option value="Other">OTHER</option>
-                            </select>
-                        </div>
+                        <div class="row">
+                            <div class="span8" style="margin-top:10px;">
+                                <select id="system" name="system" class="boldit" style="width:100%;background-color:#fb8865;height:37px;line-height:37px;">
+                                    <option selected disabled>Select System</option>
+                                    <option value="core2duo">Core 2 Duo</option>
+                                    <option value="dualcore">Dual Core</option>
+                                    <option value="Other">OTHER</option>
+                                </select>
+                            </div>
                         </div>
                         <div class="row">
                             <div class="span4">
                                 <input name="attendees" id="attendees" type="number" maxlength="10" placeholder="No. Of Users">
                             </div>
                             <div class="span4" style="margin-top:10px;">
-                                <select id="workStation" name="workStation" style="width:100%;background-color:#fb8865;height:37px;line-height:37px;">
+                                <select id="workStation" name="workStation" class="boldit" style="width:100%;background-color:#fb8865;height:37px;line-height:37px;">
                                     <option selected disabled>Work Station ?</option>
                                     <option value="Yes">Yes</option>
                                     <option value="No">No</option>
@@ -152,14 +153,14 @@
                         </div>
                         <div class="row">
                             <div class="span4" style="margin-top:10px;">
-                                <select id="projector" name="projector" style="width:100%;background-color:#fb8865;height:37px;line-height:37px;">
+                                <select id="projector" name="projector" class="boldit" style="width:100%;background-color:#fb8865;height:37px;line-height:37px;">
                                     <option selected disabled>Projector ?</option>
                                     <option value="Yes">Yes</option>
                                     <option value="No">No</option>
                                 </select>
                             </div>
                             <div class="span4" style="margin-top:10px;">
-                                <select id="networking" name="networking" style="width:100%;background-color:#fb8865;height:37px;line-height:37px;">
+                                <select id="networking" name="networking" class="boldit" style="width:100%;background-color:#fb8865;height:37px;line-height:37px;">
                                     <option selected disabled>Networking ?</option>
                                     <option value="Yes">Yes</option>
                                     <option value="No">No</option>
@@ -168,14 +169,14 @@
                         </div>
                         <div class="row">
                             <div class="span4" style="margin-top:10px;">
-                                <select id="lcd" name="lcd" style="width:100%;background-color:#fb8865;height:37px;line-height:37px;">
+                                <select id="lcd" name="lcd" class="boldit" style="width:100%;background-color:#fb8865;height:37px;line-height:37px;">
                                     <option selected disabled>LCD ?</option>
                                     <option value="Yes">Yes</option>
                                     <option value="No">No</option>
                                 </select>
                             </div>
                             <div class="span4" style="margin-top:10px;">
-                                <select id="printerScanner" name="printerScanner" style="width:100%;background-color:#fb8865;height:37px;line-height:37px;">
+                                <select id="printerScanner" name="printerScanner" class="boldit" style="width:100%;background-color:#fb8865;height:37px;line-height:37px;">
                                     <option selected disabled>Printer/Scanner ?</option>
                                     <option value="Yes">Yes</option>
                                     <option value="No">No</option>
@@ -184,7 +185,7 @@
                         </div>
                         <div class="row">
                             <div class="span8">
-                                <textarea name="message" id="message" maxlength="500"></textarea>
+                                <textarea name="message" placeholder="Your Message" id="message" maxlength="500"></textarea>
                             </div>
                         </div>
                         <div class="row space20"></div>
@@ -206,10 +207,28 @@
                             </div>
                         </div>
                         <div class="row space20"></div>
-</form>
-                <!-- Blog Form End -->
-
-            </div>
+                    </form>
+                    <!-- Blog Form End -->
+                </div>
+                <div class="span4">
+                        <div class="slider2 flexslider">
+                            <ul class="slides">
+                                <li>
+                                    <img src="images/computerlabs/1.jpg" alt="computerlabs-alghani-enterprises">
+                                </li>
+                                <li>
+                                    <img src="images/computerlabs/2.jpg" alt="computer-alghani-enterprises">
+                                </li>
+                                <li>
+                                    <img src="images/computerlabs/3.jpg" alt="computer-alghani-enterprises">
+                                </li>
+                                <li>
+                                    <img src="images/computerlabs/4.jpg" alt="computerlabs-alghani-enterprises">
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
         </div>
     </div>
     <!-- Content End -->
