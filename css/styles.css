@@ -1427,24 +1427,40 @@ table a:hover{
 
 input[type="text"]
 {
+  background-color: #cbcfd1;
+  border-color: black;
+  border-width: 2px;
+  border-bottom-style: double;
     color: black;
     font-size:20px;
     font-weight: bold;
 }
 input[type="number"]
 {
+    background-color: #cbcfd1;
+  border-color: black;
+  border-width: 2px;
+  border-bottom-style: double;
     color: black;
     font-size:20px;
     font-weight: bold;
 }
 input[type="email"]
 {
+    background-color: #cbcfd1;
+  border-color: black;
+  border-width: 2px;
+  border-bottom-style: double;
     color: black;
     font-size:20px;
     font-weight: bold;
 }
 .boldit{
-  color: black !important;
+    background-color: #cbcfd1 !important;
+  border-color: black !important;
+  border-width: 2px !important;
+  border-bottom-style: double !important;
+  color: #4F4B4C !important;
       font-size:20px;
     font-weight: bold;
 }
@@ -1471,6 +1487,10 @@ input[type="email"]
 }
 
 textarea {
+    background-color: #cbcfd1 !important;
+  border-color: black !important;
+  border-width: 2px !important;
+  border-bottom-style: double !important;
     color: black !important;
       font-size:20px;
     font-weight: bold;
