@@ -1431,6 +1431,9 @@ input[type="text"]
   border-color: black;
   border-width: 2px;
   border-bottom-style: double;
+  border-top-style: double;
+  border-left-style: double;
+  border-right-style: double;
     color: black;
     font-size:20px;
     font-weight: bold;
@@ -1441,6 +1444,9 @@ input[type="number"]
   border-color: black;
   border-width: 2px;
   border-bottom-style: double;
+    border-top-style: double;
+  border-left-style: double;
+  border-right-style: double;
     color: black;
     font-size:20px;
     font-weight: bold;
@@ -1451,6 +1457,9 @@ input[type="email"]
   border-color: black;
   border-width: 2px;
   border-bottom-style: double;
+    border-top-style: double;
+  border-left-style: double;
+  border-right-style: double;
     color: black;
     font-size:20px;
     font-weight: bold;
@@ -1495,6 +1504,7 @@ textarea {
       font-size:20px;
     font-weight: bold;
 }
+
 .btn {
   background: #a31f1f;
   background-image: -webkit-linear-gradient(top, #a31f1f, ##a31f1f);
