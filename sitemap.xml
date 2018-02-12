@@ -6,44 +6,57 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
+
 <url>
   <loc>http://alghani-enterprises.com/</loc>
-  <lastmod>2017-12-04T18:48:26+00:00</lastmod>
+  <lastmod>2018-02-12T19:15:12+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
+  <loc>http://alghani-enterprises.com/index.htm</loc>
+  <lastmod>2018-02-12T19:15:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
   <loc>http://alghani-enterprises.com/about-us.htm</loc>
-  <lastmod>2017-12-04T18:48:26+00:00</lastmod>
+  <lastmod>2018-02-12T19:15:12+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://alghani-enterprises.com/offers.htm</loc>
-  <lastmod>2017-12-04T18:48:26+00:00</lastmod>
+  <lastmod>2018-02-12T19:15:12+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://alghani-enterprises.com/inquiry-cameras.htm</loc>
-  <lastmod>2017-12-04T18:48:26+00:00</lastmod>
+  <lastmod>2018-02-12T19:15:12+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://alghani-enterprises.com/construction.htm</loc>
-  <lastmod>2017-12-04T18:48:26+00:00</lastmod>
+  <lastmod>2018-02-12T19:15:12+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://alghani-enterprises.com/inquiry-computer-labs.htm</loc>
-  <lastmod>2017-12-04T18:48:26+00:00</lastmod>
+  <lastmod>2018-02-12T19:15:12+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://alghani-enterprises.com/inquiry-furniture.htm</loc>
-  <lastmod>2017-12-04T18:48:26+00:00</lastmod>
+  <lastmod>2018-02-12T19:15:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://alghani-enterprises.com/safety.htm</loc>
+  <lastmod>2018-02-12T19:15:12+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://alghani-enterprises.com/contact-us.htm</loc>
-  <lastmod>2017-12-04T18:48:26+00:00</lastmod>
+  <lastmod>2018-02-12T19:15:12+00:00</lastmod>
   <priority>0.80</priority>
 </url>
+
+
 </urlset>
